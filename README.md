@@ -1,2 +1,10 @@
-# Cantina Senai
- Um site desenvolvido para melhorar o gerenciamento da cantina de uma unidade do SENAI.
+# cantinasenai
+Novo projeto frontend com tailwind e vite.
+
+O que é o projeto?
+
+Problemas encontrados
+
+Problemas resolvidos
+
+Prints das páginas e explicação resumida
