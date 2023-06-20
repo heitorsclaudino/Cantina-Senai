@@ -32,7 +32,24 @@ Bibliotecas e Frameworks
 - App.jsx: arquivo principal que configura as rotas e estrutura geral do site.
 - main.jsx: arquivo responsável por renderizar o App.jsx
 
-O que é o projeto Cantina SENAI?
+### Introdução
+
+
+#### O que é o projeto Cantina SENAI?
+
+É um sistema de gerenciamento de produtos e contas pendentes de usuários da cantina do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle". No site, é possível realizar as [operações básicas de CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/) com os produtos do [cardápio](https://www.cantinasenai.com.br), com as contas e as compras de cada cliente registrado no sistema.
+
+O sistema apresenta:
+
+- login no padrão JWT (Json Web Token) e criptografia de senhas para maior segurança :lock:
+
+- envio de e-mail automaticamente após as operações que afetam cliente e cantina (abertura ou fechamento de contas, por exemplo.) para maior tranparência
+
+
+- Porque desenvolvemos este site?
+facilitar o gerenciamento e controle da cantina
+maior autenticidade e tranparência nas relações cliente-cantina
+facilitar a atualização dos preços do cardápio
 
 Problemas encontrados
 
