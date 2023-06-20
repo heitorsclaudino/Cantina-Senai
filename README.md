@@ -37,7 +37,7 @@ Bibliotecas e Frameworks
 
 #### O que é o projeto Cantina SENAI?
 
-O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos e contas pendentes de usuários da cantina do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle". No site, é possível realizar as [operações básicas de CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/) com os produtos do [cardápio](https://www.cantinasenai.com.br), com as contas e as compras de cada cliente registrado no sistema.
+O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos e contas pendentes de usuários da cantina do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle". No site, é possível realizar as [operações básicas de CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/) com os produtos do [cardápio](https://www.cantinasenai.com.br), contas e compras de cada cliente registrado no sistema.
 
 O sistema apresenta:
 
