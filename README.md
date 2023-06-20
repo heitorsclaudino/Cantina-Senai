@@ -1,20 +1,26 @@
 # Cantina SENAI 🍔 🍟
 
-O site se encontra disponível neste [link](https://sistema.cantinasenai.com.br/)
+### O site se encontra disponível neste [link](https://sistema.cantinasenai.com.br/)
 
-Linguagens e tecnologias
+#### Desenvolvedores
+[Giovanna](https://github.com/GiPaiva) | 
+[Guilherme](https://github.com/GuiLeoni) | 
+[Heitor](https://github.com/heitorsclaudino) |
+[Henrique](https://github.com/Henrique-Botelho) |
 
-- JSX
-- JavasScript
-- MySQL
-- Node.js
+#### Linguagens e tecnologias
+
+- ***JSX*** -> linguagem de marcação usada no React.js (Html envolvido por JavaScript)
+- ***JavaScript*** -> linguagem de programação utilizada na criação da dinâmica e interatividade das páginas, autenticação e segurança do site e comunicação com o servidor e banco de dados
+- ***MySQL*** -> banco de dados utilizado
+- ***Node.js*** -> Ferramenta usada para facilitar o a comunicação entre o banco de dados e o site
 
 
-Bibliotecas e Frameworks
+#### Bibliotecas e Frameworks
 
-- React.js
-- Tailwind.css
-- Vite
+- ***React.js***
+- ***Tailwind.css***
+- ***Vite***
 
 ### Estrutura do projeto 
 
@@ -39,20 +45,17 @@ Bibliotecas e Frameworks
 
 O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos e contas pendentes de usuários da cantina do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle". No site, é possível realizar as [operações básicas de CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/) com os produtos do [cardápio](https://www.cantinasenai.com.br), contas e compras de cada cliente registrado no sistema.
 
-O sistema apresenta:
+**O sistema apresenta:**
 
 - login no padrão JWT (Json Web Token) e criptografia de senhas para maior segurança :lock:
 
 - envio de e-mail automaticamente após as operações que afetam cliente e cantina (abertura ou fechamento de contas, por exemplo.) para maior tranparência
 
 
-- Porque desenvolvemos este site?
+**Porque desenvolvemos este site?**
 facilitar o gerenciamento e controle da cantina
 maior autenticidade e tranparência nas relações cliente-cantina
 facilitar a atualização dos preços do cardápio
 
-Problemas encontrados
-
-Problemas resolvidos
 
 Prints das páginas e explicação resumida
