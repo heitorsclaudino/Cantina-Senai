@@ -1,6 +1,8 @@
 # cantinasenai
 Novo projeto frontend com tailwind e vite.
 
+O site está disponível neste [link](https://sistema.cantinasenai.com.br/)
+
 O que é o projeto?
 
 Problemas encontrados
