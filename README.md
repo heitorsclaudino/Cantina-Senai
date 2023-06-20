@@ -67,6 +67,7 @@ O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos 
 
 
 **Porque desenvolvemos este site?**
+
 facilitar o gerenciamento e controle da cantina
 maior autenticidade e tranparência nas relações cliente-cantina
 facilitar a atualização dos preços do cardápio
