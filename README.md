@@ -74,4 +74,4 @@ facilitar a atualização dos preços do cardápio
 
 Prints das páginas e explicação resumida
 
-[Página dos clientes](./src/assets/prints/clientesPage.png "Página dos clientes da cantina")
+[Página dos clientes](https://drive.google.com/drive/folders/1WZ7hJEPYIEUWE5BfWl-KaAg22MaVASJz "Página dos clientes da cantina")
