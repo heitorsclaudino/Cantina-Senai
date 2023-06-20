@@ -74,4 +74,4 @@ facilitar a atualização dos preços do cardápio
 
 Prints das páginas e explicação resumida
 
-[Página dos clientes](../../Projeto%20Cantina/clientesPage.png "Página dos clientes da cantina")
+[Página dos clientes](./src/assets/prints/clientesPage.png "Página dos clientes da cantina")
