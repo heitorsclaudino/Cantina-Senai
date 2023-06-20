@@ -16,7 +16,7 @@ Bibliotecas e Frameworks
 - Tailwind.css
 - Vite
 
-Estrutura do projeto :folder:
+### Estrutura do projeto 
 
 - public/: diretório contendo a imagem logo do projeto, publica e disponível no título do HTML principal do site
 
@@ -26,7 +26,7 @@ Estrutura do projeto :folder:
 
 - pages/: pasta que contém as páginas principais da aplicação.
 
-Arquivos
+#### Arquivos
 
 - api.jsx: arquivo com as configurações básicas para efetuar requisições na nossa API
 - App.jsx: arquivo principal que configura as rotas e estrutura geral do site.
