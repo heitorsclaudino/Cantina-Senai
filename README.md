@@ -3,10 +3,24 @@
 ### O site se encontra disponível neste [link](https://sistema.cantinasenai.com.br/)
 
 #### Desenvolvedores
+
+
+[Abner](https://github.com/ClaushSouza) | 
+[Álvaro](https://github.com/alvarexx) | 
+[Bianca](https://github.com/BiancaMarcondes) |
+[Eduarda](https://github.com/dudaribas) |
+[Fabíola](https://github.com/fabiola-girotti) | 
+[Gabriel](https://github.com/Gctyx) | 
 [Giovanna](https://github.com/GiPaiva) | 
-[Guilherme](https://github.com/GuiLeoni) | 
+[Guilherme Cunha](https://github.com/Guigite) |
+[Guilherme Leoni](https://github.com/GuiLeoni) | 
+[Gustavo Alves](https://github.com/Decompilationist) |
+[Gustavo Lima](https://github.com/gustavol1) |
 [Heitor](https://github.com/heitorsclaudino) |
-[Henrique](https://github.com/Henrique-Botelho) |
+[Henrique Botelho](https://github.com/Henrique-Botelho) | 
+[Henrique Lobo](https://github.com/HLN-lobo) | 
+[Luiz](https://github.com/LAugustoLeite) | 
+
 
 #### Linguagens e tecnologias
 
