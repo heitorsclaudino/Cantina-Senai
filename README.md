@@ -1,4 +1,5 @@
-# cantinasenai
+# Cantina Senai 🍔 🍟
+
 Novo projeto frontend com tailwind e vite.
 
 O site se encontra disponível neste [link](https://sistema.cantinasenai.com.br/)
