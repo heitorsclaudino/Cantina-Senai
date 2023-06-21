@@ -89,7 +89,7 @@ Para cada uma das entidades temos uma página específica do site, que conta tam
 
 (foto do menu)
 
-Página de Vendas
+#### Página de Vendas
 
 A página de vendas é responsável por gerenciar as contas pendentes dos clientes. Optamos por usar o nome de vendas para auxiliar os funcionários da cantina, que utilizarão a plataforma todos os dias. 
 Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as contas de um cliente específico, pagas e não pagas.
@@ -99,10 +99,23 @@ Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações 
 
 (foto da página de vendas)
 
-Página de Clientes
+#### Página de Clientes
 
-Página de Produtos
+A página de clientes é responsável pela adição, edição, exclusão e leitura dos dados dos clientes registrados no sistema. Em um cenário de dados incorretos, por exemplo, ela possibilita fácil atualização.
+
+Além disso, a página possui o botão "Finalizar conta" para cada um dos clientes registrados. Se o cliente tiver uma conta em aberto, o sistema somará todas as suas compras e mostrará o valor total (e individual de cada compra). Ao prosseguir, todas as compras daquele cliente terão seu status alterado para "Pago" e a conta do cliente é fechada.
+
+Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago" registradas, o sistema informará o funcionário e disponibilizará apenas um botão para voltar a tela de clientes.
+
+(foto da tela de clientes)
+
+(modal finalizar conta)
+
+#### Página de Produtos
+
+
+
+## Conclusão
 
 Segurança/Gerenciamento
 
-[Página dos clientes](https://drive.google.com/file/d/1NcAT3upoI7PiirHQmPr8KcO8FFAVzMc-/view?usp=drive_link "Página dos clientes da cantina")
