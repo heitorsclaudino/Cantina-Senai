@@ -70,9 +70,6 @@ O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos 
 
 **Porque desenvolvemos este site?**
 
-facilitar o gerenciamento e controle da cantina
-maior autenticidade e tranparência nas relações cliente-cantina
-facilitar a atualização dos preços do cardápio
 
 Ao analisarmos a situação da cantina da escola, percebemos que as anotações em caderno diárias feitas pelos funcionários que registravam as contas em aberto dos clientes poderiam se tornar um problema, a medida que, com o tempo, seria cada vez mais difícil de recuperar contas passadas, o que poderia gerar imprecisão pela omissão de dados no cálculo da conta final dos clientes frequentadores da cantina. Por exemplo, se um cliente escolhesse comprar hoje na cantina, mas pagar somente daqui a dois meses, os funcionários seriam responsáveis por verificar essa conta em aberto, voltando dois meses de anotações e arriscando não encontrar partes da conta pendente. 
 
@@ -97,6 +94,7 @@ Página de Vendas
 A página de vendas é responsável por gerenciar as contas pendentes dos clientes. Optamos por usar o nome de vendas para auxiliar os funcionários da cantina, que utilizarão a plataforma todos os dias. 
 Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as contas de um cliente específico, pagas e não pagas.
 Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
+
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
 (foto da página de vendas)
