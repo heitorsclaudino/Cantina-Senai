@@ -95,7 +95,11 @@ Para cada uma das entidades temos uma página específica do site, que conta tam
 Página de Vendas
 
 A página de vendas é responsável por gerenciar as contas pendentes dos clientes. Optamos por usar o nome de vendas para auxiliar os funcionários da cantina, que utilizarão a plataforma todos os dias. 
-Essa consiste na 
+Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as contas de um cliente específico, pagas e não pagas.
+Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
+***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
+
+(foto da página de vendas)
 
 Página de Clientes
 
