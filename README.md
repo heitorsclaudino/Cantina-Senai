@@ -32,9 +32,11 @@
 
 #### Bibliotecas e Frameworks
 
-- ***React.js***
-- ***Tailwind.css***
-- ***Vite***
+- ***React.js*** - uma biblioteca JavaScript utilizada para auxiliar o desenvolvimento das páginas
+
+- ***Tailwind.css*** - uma biblioteca utilizada para facilitar e dinamizar a estilização das páginas
+
+- ***Vite*** - um framework utilizado para simplificar a estrutura do projeto (me corrijam henrique e guilherme, pra ver se é isso mesmo)
 
 ### Estrutura do projeto 
 
@@ -57,7 +59,7 @@
 
 #### O que é o projeto Cantina SENAI?
 
-O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos e contas pendentes de usuários da cantina do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle". No site, é possível realizar as [operações básicas de CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/) com os produtos do [cardápio](https://www.cantinasenai.com.br), contas e compras de cada cliente registrado no sistema.
+O sistema Cantina SENAI consiste em uma plataforma de gerenciamento de produtos e contas pendentes de usuários da cantina do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle". No site, é possível realizar as [operações básicas de CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/) com os produtos do [cardápio da cantina do SENAI](https://www.cantinasenai.com.br), contas e compras de cada cliente registrado no sistema.
 
 **O sistema apresenta:**
 
@@ -76,11 +78,29 @@ Ao analisarmos a situação da cantina da escola, percebemos que as anotações 
 
 Ainda pensando nos problemas físicos das anotações, os preços do cardápio da cantina eram atualizados por etiquetas adesivas, que além de não serem uma solução prática, poluiam o cardápio visualmente. Outro problema encontrado no cardápio foi no possível cenário de atualização de produtos, que poderiam sair ou entrar no cardápio acarretando no desenvolvimento de um novo folheto por completo, novamente uma solução nada ideal.
 
-Pensando nesses problemas, desenvolvemos este site para gerenciar os dados de contas pendentes, clientes e produtos disponíveis no cardápio. O que justifica o destaque para as 3 principais entidades do projeto: 
+O site ainda possibilita maior transparência nas relações cantina-cliente uma vez que ao registrar uma nova compra pra determindao cliente, envia um e-mail automaticamente com os detalhes da compra (produtos comprados e seu valor) para o respectivo consumidor.
 
-- ***Contas pendentes ou vendas***
+Pensando nesses problemas, desenvolvemos este site para gerenciar os dados de contas pendentes, clientes e produtos disponíveis no cardápio. Por isso, vamos dar destaque para as 3 principais entidades do projeto. Qualquer pessoa com acesso autorizado a aplicação pode realizar as 4 operações de CRUD com: 
 
-- ******
-Prints das páginas e explicação resumida
+- ***Contas pendentes ou vendas*** - Possuem um cliente a quem estão atreladas,  produtos comprados, data e hora do seu registro, detalhes e status de pagamento (Pago | Não pago)
+
+- ***Clientes*** - Possuem dados como nome, e-mail e telefone
+
+- ***Produtos disponíveis no cardápio*** - Possuem nome, preço, categoria (salgados, doces, etc.) e descrição
+
+Para cada uma das entidades temos uma página específica do site, que conta também com um manual de usuário. Para facilitar a navegação entre as páginas, um menu está disponível em todas as telas da aplicação.
+
+(foto do menu)
+
+Página de Vendas
+
+A página de vendas é responsável por gerenciar as contas pendentes dos clientes. Optamos por usar o nome de vendas para auxiliar os funcionários da cantina, que utilizarão a plataforma todos os dias. 
+Essa consiste na 
+
+Página de Clientes
+
+Página de Produtos
+
+Segurança/Gerenciamento
 
 [Página dos clientes](https://drive.google.com/file/d/1NcAT3upoI7PiirHQmPr8KcO8FFAVzMc-/view?usp=drive_link "Página dos clientes da cantina")
