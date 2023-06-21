@@ -79,7 +79,7 @@ O site ainda possibilita maior transparência nas relações cantina-cliente uma
 
 Pensando nesses problemas, desenvolvemos este site para gerenciar os dados de contas pendentes, clientes e produtos disponíveis no cardápio. Por isso, vamos dar destaque para as 3 principais entidades do projeto. Qualquer pessoa com acesso autorizado a aplicação pode realizar as 4 operações de CRUD com: 
 
-- ***Contas pendentes ou vendas*** - Possuem um cliente a quem estão atreladas,  produtos comprados, data e hora do seu registro, detalhes e status de pagamento (Pago | Não pago)
+- ***Contas pendentes ou vendas*** - Possuem compras onde cada uma tem: um cliente a quem está atrelada,  produtos comprados, data e hora do seu registro, detalhes e status de pagamento (Pago | Não pago)
 
 - ***Clientes*** - Possuem dados como nome, e-mail e telefone
 
@@ -89,10 +89,14 @@ Para cada uma das entidades temos uma página específica do site, que conta tam
 
 (foto do menu)
 
+Após a tela de login (foto abaixo), o usuário, se válido, é direcionado para a *Página de vendas*.
+
+(foto do login)
+
 #### Página de Vendas
 
 A página de vendas é responsável por gerenciar as contas pendentes dos clientes. Optamos por usar o nome de vendas para auxiliar os funcionários da cantina, que utilizarão a plataforma todos os dias. 
-Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as contas de um cliente específico, pagas e não pagas.
+Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as compras de um cliente específico, pagas e não pagas.
 Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
 
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
