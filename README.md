@@ -54,7 +54,7 @@
 - App.jsx: arquivo principal que configura as rotas e estrutura geral do site.
 - main.jsx: arquivo responsável por renderizar o App.jsx
 
-### Introdução
+## Introdução
 
 
 #### O que é o projeto Cantina SENAI?
