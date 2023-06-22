@@ -24,10 +24,10 @@
 
 #### Linguagens e tecnologias
 
-- ***JSX*** -> linguagem de marcação usada no React.js (Html envolvido por JavaScript)
-- ***JavaScript*** -> linguagem de programação utilizada na criação da dinâmica e interatividade das páginas, autenticação e segurança do site e comunicação com o servidor e banco de dados
-- ***MySQL*** -> banco de dados utilizado
-- ***Node.js*** -> Ferramenta usada para facilitar o a comunicação entre o banco de dados e o site
+- ***JSX*** - linguagem de marcação usada no React.js (Html envolvido por JavaScript)
+- ***JavaScript*** - linguagem de programação utilizada na criação da dinâmica e interatividade das páginas, autenticação e segurança do site e comunicação com o servidor e banco de dados
+- ***MySQL*** - banco de dados utilizado
+- ***Node.js*** - Ferramenta usada para facilitar o a comunicação entre o banco de dados e o site
 
 
 #### Bibliotecas e Frameworks
