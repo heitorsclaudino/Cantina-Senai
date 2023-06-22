@@ -111,7 +111,7 @@ A seguir, uma breve descrição dos botões e suas funcionalidades:
 
 - ***"Excluir"*** - Exclui ***permanentemente*** a compra do sistema, após confirmação.
 
-Fotos das telas seguintes ou de confirmação dessas operações:
+Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 ![](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
 
@@ -141,8 +141,13 @@ A página de clientes exibe os detalhes de todos os clientes registrados no sist
 
 - ***Excluir*** - exclui ***permanentemente*** aquele cliente do sistema, após confirmação.
 
-- ***Finalizar conta*** - 
+- ***Finalizar conta*** - finaliza a conta em aberto (se houver) somando os totais de todas as compras. Após confirmação, altera o estado de todas as compras para "Pago".
 
+Fotos das telas seguintes ou janelas de confirmação dessas operações:
+
+![Adicionar cliente](./src/assets/prints/modalAddClient.png)
+
+![](./src/assets/prints/)
 
 #### Página de Produtos
 
