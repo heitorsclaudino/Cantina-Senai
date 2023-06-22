@@ -129,7 +129,8 @@ Além disso, a página possui o botão "Finalizar conta" para cada um dos client
 
 Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago" registradas, o sistema informará o funcionário e disponibilizará apenas um botão para voltar a tela de clientes.
 
-![Tela dos clientes](./src/assets/prints/clientesPage.png "Print da tela "Clientes"")
+![Tela dos clientes](./src/assets/prints/clientesPage.png "Print da tela 'Clientes'")
+
 ***legenda***: Tela de gerenciamento e visualização de clientes
 (modal finalizar conta)
 
