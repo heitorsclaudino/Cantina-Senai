@@ -87,7 +87,7 @@ Pensando nesses problemas, desenvolvemos este site para gerenciar os dados de co
 
 Para cada uma das entidades temos uma página específica do site, que conta também com um manual de usuário. Para facilitar a navegação entre as páginas, um menu está disponível em todas as telas da aplicação.
 
-(foto do menu)
+![Foto do login](./src/assets/prints/loginIMGedit.png)
 
 Após a tela de login (foto abaixo), o usuário, se válido, é direcionado para a *Página de vendas*.
 
