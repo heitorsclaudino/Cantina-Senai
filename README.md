@@ -99,6 +99,10 @@ A página de vendas é responsável por gerenciar as contas pendentes dos client
 Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as compras de um cliente específico, pagas e não pagas.
 Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
 
+![](./src/assets/prints/vendasPage.png)
+
+
+
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
 (foto da página de vendas)
