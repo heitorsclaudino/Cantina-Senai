@@ -89,7 +89,7 @@ Para cada uma das entidades temos uma página específica do site, que conta tam
 
 ![Um print da tela com o menu aberto exibindo as páginas de navegação: Vendas, Clientes, Produtos e Manual de Usuário. Contém ainda um botão excluir para logout. De fundo, a página do Manual é exibida, na parte do sumário onde links interativos direcionam o leitor para aquela parte específica do manual.](./src/assets/prints/manualEmenu.png "Print do menu expandido e página do manual de instruções")
 
-### Após a tela de login (foto abaixo), o usuário, se válido, é direcionado para a *Página de vendas*.
+#### Após a tela de login (foto abaixo), o usuário, se válido, é direcionado para a *Página de vendas*.
 
 ![Um print da tela de login do sistema. A cor de fundo é azul-marinho, os outros detalhes da página estão em vermelho-vinho. A logo representa uma cantina e está no centro da imagem. Abaixo, aparecem os campos de inserção de informações necessárias para realizar o login (e-mail e senha). Mais abaixo há um botão que realiza a o envio dos dados para validação. E por fim, um link com o título "Esqueci minha senha" que, ao ser clicado, solicita o endereço de e-mail para a recuperação da própria.](./src/assets/prints/loginIMGedit.png "Print do login do sistema")
 
@@ -105,7 +105,7 @@ A página de vendas exibe os detalhes de todas as vendas (ou compras) registrada
 
 A seguir, uma breve descrição dos botões e suas funcionalidades:
 
-- *"Pagar"* - Altera o status da compra para "Pago"
+- *"Pagar"* - Altera o status da compra para "Pago".
 
 - *"Detalhes"* - Exibe os detalhes da compra (items comprados e seu respectivo valor). 
 
@@ -118,10 +118,8 @@ Fotos das telas seguintes ou de confirmação dessas operações:
 ![](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
 
 
-
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
-(foto da página de vendas)
 
 #### Página de Clientes
 
@@ -131,13 +129,15 @@ Além disso, a página possui o botão "Finalizar conta" para cada um dos client
 
 Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago" registradas, o sistema informará o funcionário e disponibilizará apenas um botão para voltar a tela de clientes.
 
-(foto da tela de clientes)
-
+![Tela dos clientes](./src/assets/prints/clientesPage.png "Print da tela "Clientes"")
+***legenda***: Tela de gerenciamento e visualização de clientes
 (modal finalizar conta)
 
 #### Página de Produtos
 
+A página de produtos é responsável pela adição, edição, exclusão e leitura dos produtos registrados no sistema e que alimentam o [cardápio da cantina](https://www.cantinasenai.com.br).
 
+![](./src/assets/prints/)
 
 ## Conclusão
 
