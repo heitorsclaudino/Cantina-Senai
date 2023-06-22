@@ -138,7 +138,7 @@ Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago"
 
 A página de produtos é responsável pela adição, edição, exclusão e leitura dos produtos registrados no sistema e que alimentam o [cardápio da cantina](https://www.cantinasenai.com.br).
 
-![](./src/assets/prints/)
+![](./src/assets/prints/produtosPageedit.png "Página de produtos")
 
 ## Conclusão
 
