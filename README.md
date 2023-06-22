@@ -89,7 +89,7 @@ Para cada uma das entidades temos uma página específica do site, que conta tam
 
 ![Um print da tela com o menu aberto exibindo as páginas de navegação: Vendas, Clientes, Produtos e Manual de Usuário. Contém ainda um botão excluir para logout. De fundo, a página do Manual é exibida, na parte do sumário onde links interativos direcionam o leitor para aquela parte específica do manual.](./src/assets/prints/manualEmenu.png "Print do menu expandido e página do manual de instruções")
 
-**Após a tela de login (foto abaixo), o usuário, se válido, é direcionado para a *Página de vendas*.**
+Após a tela de login (foto abaixo), o usuário, se válido, é direcionado para a ***Página de vendas***.
 
 ![Um print da tela de login do sistema. A cor de fundo é azul-marinho, os outros detalhes da página estão em vermelho-vinho. A logo representa uma cantina e está no centro da imagem. Abaixo, aparecem os campos de inserção de informações necessárias para realizar o login (e-mail e senha). Mais abaixo há um botão que realiza a o envio dos dados para validação. E por fim, um link com o título "Esqueci minha senha" que, ao ser clicado, solicita o endereço de e-mail para a recuperação da própria.](./src/assets/prints/loginIMGedit.png "Print do login do sistema")
 
@@ -132,7 +132,17 @@ Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago"
 ![Tela dos clientes](./src/assets/prints/clientesPage.png "Print da tela 'Clientes'")
 
 ***legenda***: Tela de gerenciamento e visualização de clientes
-(modal finalizar conta)
+
+A página de clientes exibe os detalhes de todos os clientes registrados no sistema. A seguir, uma breve descrição dos botões e suas funcionalidades:
+
+- ***Adicionar cliente*** - 
+
+- ***Editar***
+
+- ***Excluir***
+
+- ***Finalizar conta***
+
 
 #### Página de Produtos
 
@@ -140,11 +150,13 @@ A página de produtos é responsável pela adição, edição, exclusão e leitu
 
 ![](./src/assets/prints/produtosPageedit.png "Página de produtos")
 
+***legenda***: Tela de gerenciamento e visualização de produtos
+
 A página de produtos exibe os detalhes de todos os produtos registrados no sistema. A seguir, uma breve descrição dos botões e suas funcionalidades:
 
-- ***Adicionar produto*** - carrega uma página que solicita os dados para a criação de um novo produto 
+- ***Adicionar produto*** - carrega uma página que solicita os dados para a criação de um novo produto.
 
-- ***Editar*** - carrega uma página contendo os dados do produto a ser alterado e permite qualquer modificação
+- ***Editar*** - carrega uma página contendo os dados do produto a ser alterado e permite qualquer modificação.
 
 - ***Excluir*** - exclui ***permanentemente*** aquele produto do sistema, após confirmação.
 
