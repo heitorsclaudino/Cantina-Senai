@@ -101,6 +101,22 @@ Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações 
 
 ![](./src/assets/prints/vendasPage.png)
 
+A página de vendas exibe os detalhes de todas as vendas (ou compras) registradas no sistema. A estrutura de tabelas adotada foi escolhida para melhor visualização dos dados e será reutilizada por toda a aplicação. 
+
+A seguir, uma breve descrição dos botões e suas funcionalidades:
+
+- *"Pagar"* - Altera o status da compra para "Pago"
+
+- *"Detalhes"* - Exibe os detalhes da compra (items comprados e seu respectivo valor). 
+
+- *"Excluir"* - Exclui **permanentemente** a compra do sistema.
+
+Fotos das telas seguintes ou de confirmação dessas operações:
+
+![](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
+
+![](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
+
 
 
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
