@@ -147,7 +147,7 @@ Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 ![Adicionar cliente](./src/assets/prints/modalAddClient.png)
 
-![](./src/assets/prints/)
+![](./src/assets/prints/) ATUALIZAR PASTA DE PRINTS
 
 #### Página de Produtos
 
