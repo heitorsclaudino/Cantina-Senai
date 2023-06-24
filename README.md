@@ -81,7 +81,7 @@ O site ainda possibilita maior transparência nas relações cantina-cliente uma
 
 Pensando nesses problemas, desenvolvemos este site para gerenciar os dados de contas pendentes, clientes e produtos disponíveis no cardápio. Por isso, vamos dar destaque para as 3 principais entidades do projeto. Qualquer pessoa com acesso autorizado a aplicação pode realizar as 4 operações de CRUD com: 
 
-- ***Contas pendentes ou vendas*** - Possuem compras onde cada uma tem: um cliente a quem está atrelada,  produtos comprados, data e hora do seu registro, detalhes e status de pagamento (Pago | Não pago)
+- ***Contas pendentes ou vendas*** - Possuem compras onde cada uma tem: um cliente a quem está associada,  produtos comprados, data e hora do seu registro, detalhes e status de pagamento (Pago | Não pago)
 
 - ***Clientes*** - Possuem dados como nome, e-mail e telefone
 
@@ -104,7 +104,7 @@ A página de vendas é responsável por gerenciar as contas pendentes dos client
 Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as compras de um cliente específico, pagas e não pagas.
 Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
 
-![](./src/assets/prints/vendasPage.png)
+![No topo e centralizada se encontra a logo do projeto, em tamanho reduzido e cor branca, sobre um fundo azul-marinho (igual ao da tela de login). À direita, um botão com 3 listras indicando um menu expansivo. Quando clicado, expande o menu. No centro da imagem se encontra a "Tabela de vendas", com dados sobre todas as vendas (compras dos clientes). Os dados são: cliente a quem a compra está associada, data e hora da compra, status com as opções "Pago e Não Pago" e valor total da compra. Ainda dentro da tabela, mais à direita, para cada compra, existem 3 botões cujas funcionalidades serão explicadas logo abaixo da imagem. São eles: Pagar, Detalhes e Excluir](./src/assets/prints/vendsPage.png "Tela de vendas (compras se vistas pelo lado do cliente")
 ***legenda***: Página de gerenciamento de compras (ou vendas)
 
 A página de vendas exibe os detalhes de todas as vendas (ou compras) registradas no sistema. A estrutura de tabelas adotada foi escolhida para melhor visualização dos dados e será reutilizada por toda a aplicação. 
