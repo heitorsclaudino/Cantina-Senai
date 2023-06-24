@@ -95,6 +95,9 @@ Após a tela de login (mostrada abaixo), o usuário se validado, é redirecionad
 
 ![Um print da tela de login do sistema. A cor de fundo é azul-marinho, os outros detalhes da página estão em vermelho-vinho. A logo representa uma cantina e está no centro da imagem. Abaixo, aparecem os campos de inserção de informações necessárias para realizar o login (e-mail e senha). Mais abaixo há um botão que realiza a o envio dos dados para validação. E por fim, um link com o título "Esqueci minha senha" que, ao ser clicado, solicita o endereço de e-mail para a recuperação da própria.](./src/assets/prints/loginIMGedit.png "Print do login do sistema")
 
+***legenda***: Tela inicial do sistema. Sem um login registrado, esta é a única página que o usuário terá acesso.
+
+
 #### Página de Vendas
 
 A página de vendas é responsável por gerenciar as contas pendentes dos clientes. Optamos por usar o nome de vendas para auxiliar os funcionários da cantina, que utilizarão a plataforma todos os dias. 
@@ -102,10 +105,15 @@ Consiste na apresentação de todas as contas em aberto registradas. Integrada c
 Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
 
 ![](./src/assets/prints/vendasPage.png)
+***legenda***: Página de gerenciamento de compras (ou vendas)
 
 A página de vendas exibe os detalhes de todas as vendas (ou compras) registradas no sistema. A estrutura de tabelas adotada foi escolhida para melhor visualização dos dados e será reutilizada por toda a aplicação. 
 
 A seguir, uma breve descrição dos botões e suas funcionalidades:
+
+- ***"Excluir Vendas Pagas"*** - Exclui ***permanentemente*** todas as vendas com status "Pago" do sistema, após confirmação.
+
+- ***"Adicionar venda"*** - Adiciona uma compra a conta de um cliente específico.
 
 - ***"Pagar"*** - Altera o status da compra para "Pago".
 
@@ -113,13 +121,14 @@ A seguir, uma breve descrição dos botões e suas funcionalidades:
 
 - ***"Excluir"*** - Exclui ***permanentemente*** a compra do sistema, após confirmação.
 
+
 Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 ![](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
 
 ![](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
 
-![](./src/assets/prints/modalExcluiComprasPagas.png)
+![](./src/assets/prints/modalExcluiComprasPagas.png "Modal de confirmação de exclusão de compra")
 
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
@@ -134,7 +143,7 @@ Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago"
 
 ![Tela dos clientes](./src/assets/prints/clientesPage.png "Print da tela 'Clientes'")
 
-***legenda***: Tela de gerenciamento e visualização de clientes
+***legenda***: Página de gerenciamento e visualização de clientes
 
 A página de clientes exibe os detalhes de todos os clientes registrados no sistema. A seguir, uma breve descrição dos botões e suas funcionalidades:
 
@@ -148,13 +157,13 @@ A página de clientes exibe os detalhes de todos os clientes registrados no sist
 
 Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
-![Adicionar cliente](./src/assets/prints/modalAddClient.png)
+![Adicionar cliente](./src/assets/prints/modalAddClient.png "Modal adiciona cliente")
 
-![](./src/assets/prints/modalEditClient.png)
+![](./src/assets/prints/modalEditClient.png "Modal edita cliente")
 
-![](./src/assets/prints/modalExcluiClient.png)
+![](./src/assets/prints/modalExcluiClient.png "Modal de confirmação exclui cliente")
 
-![](./src/assets/prints/modalFinalizaConta.png)
+![](./src/assets/prints/modalFinalizaConta.png "Modal finaliza conta")
 
 #### Página de Produtos
 
@@ -174,14 +183,19 @@ A página de produtos exibe os detalhes de todos os produtos registrados no sist
 
 Aqui vão alguns prints das telas de confirmação:
 
-![](./src/assets/prints/modalAddProduto.png)
+![](./src/assets/prints/modalAddProduto.png "Modal adiciona produto")
 
-![](./src/assets/prints/modalEditProduto.png)
+![](./src/assets/prints/modalEditProduto.png "Modal edita produto")
 
-![](./src/assets/prints/modalExcluiProduto.png)
+![](./src/assets/prints/modalExcluiProduto.png "Modal de confirmação exclui produto")
 
 
 ## Conclusão
 
-Segurança/Gerenciamento
+
+O projeto Cantina SENAI foi desenvolvido com muita dedicação e comprometimento, durante um período de aproximadamente 3 meses. Focados em resolver problemas, solucionamos a questão das anotações acrescentando uma interface visualmente agradável. O site possui funcionalidades como registro de data e hora de compras, sistema de busca por clientes específicos, envio de e-mail para maior transparência das operações, etc.
+
+Na parte da segurança, o sistema de login JWT garante que o usuário só acesse a aplicação se devidamente autorizado. Caso contrário, a tentativa de navegação entre outras páginas da aplicação será *barrada* e o usuário redirecionado para a tela de login. O sistema também possui proteção contra *SQL injection* e criptografias de senhas inclusas, para aumentar a segurança contra possíveis invasões.
+
+Todas essas medidas foram implementadas com o objetivo de ***facilitar*** o gerenciamento dos produtos e contas pendentes, promovendo **segurança** e **transparência** na ulização de todas as partes da aplicação.
 
