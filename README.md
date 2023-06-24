@@ -40,9 +40,11 @@
 
 ### Estrutura do projeto 
 
-- public/: diretório contendo a imagem logo do projeto, publica e disponível no título do HTML principal do site
+#### Pastas
 
-- src/: diretório contendo os arquivos essenciais do projeto.
+- public/: pasta contendo a imagem logo do projeto, publica e disponível no título do HTML principal do site
+
+- src/: pasta contendo os arquivos essenciais do projeto.
 
 - components/: pasta que contém os componentes disponíveis e reutilizáveis no site
 
