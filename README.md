@@ -104,7 +104,7 @@ A página de vendas é responsável por gerenciar as contas pendentes dos client
 Consiste na apresentação de todas as contas em aberto registradas. Integrada com uma caixa de busca, permite que o funcionário busque todas as compras de um cliente específico, pagas e não pagas.
 Permite ainda o pagamento ou a exclusão de compras específicas, ambas ações irreversíveis. 
 
-![No topo e centralizada se encontra a logo do projeto, em tamanho reduzido e cor branca, sobre um fundo azul-marinho (igual ao da tela de login). À direita, um botão com 3 listras indicando um menu expansivo. Quando clicado, expande o menu. No centro da imagem se encontra a "Tabela de vendas", com dados sobre todas as vendas (compras dos clientes). Os dados são: cliente a quem a compra está associada, data e hora da compra, status com as opções "Pago e Não Pago" e valor total da compra. Ainda dentro da tabela, mais à direita, para cada compra, existem 3 botões cujas funcionalidades serão explicadas logo abaixo da imagem. São eles: Pagar, Detalhes e Excluir](./src/assets/prints/vendsPage.png "Tela de vendas (compras se vistas pelo lado do cliente")
+![No topo e centralizada se encontra a logo do projeto, em tamanho reduzido e cor branca, sobre um fundo azul-marinho (igual ao da tela de login). À direita, um botão com 3 listras brancas indicando um menu expansivo. Quando clicado, expande o menu. No centro da imagem se encontra a "Tabela de vendas", com dados sobre todas as vendas ( ou compras se olhadas pela ótica dos clientes). Ao lado do título, totalmente a direita, dois botões "Excluir vendas pagas" ( em cor vermelha) e "Adicionar venda" (em cor verde) estão posicionados. Serão explicados logo após a imagem. Logo abaixo do título se encontra uma caixa de pesquisa, que ao ser clicada, possibilita a busca por clientes específicos e seus dados são exibidos. Os dados representados na tabela são: cliente a quem a compra está associada, data e hora da compra, status com as opções "Pago e Não Pago" e valor total da compra. Ainda dentro da tabela, mais à direita, para cada compra, existem 3 botões cujas funcionalidades serão explicadas logo abaixo da imagem. São eles: Pagar (cor verde), Detalhes (cor azul) e Excluir (cor vermelha)](./src/assets/prints/vendasPage.png "Tela de vendas (compras se vistas pelo lado do cliente")
 ***legenda***: Página de gerenciamento de compras (ou vendas)
 
 A página de vendas exibe os detalhes de todas as vendas (ou compras) registradas no sistema. A estrutura de tabelas adotada foi escolhida para melhor visualização dos dados e será reutilizada por toda a aplicação. 
@@ -115,7 +115,7 @@ A seguir, uma breve descrição dos botões e suas funcionalidades:
 
 - ***"Adicionar venda"*** - Adiciona uma compra a conta de um cliente específico.
 
-- ***"Pagar"*** - Altera o status da compra para "Pago".
+- ***"Pagar"*** - Altera o status da compra para "Pago". Após o status alterado, o botão fica desabilitado e na cor cinza. É uma ação permanente.
 
 - ***"Detalhes"*** - Exibe os detalhes da compra (items comprados e seu respectivo valor). 
 
@@ -141,7 +141,7 @@ Além disso, a página possui o botão "Finalizar conta" para cada um dos client
 
 Se o cliente tiver uma conta fechada, ou seja, sem compras de status "Não pago" registradas, o sistema informará o funcionário e disponibilizará apenas um botão para voltar a tela de clientes.
 
-![Tela dos clientes](./src/assets/prints/clientesPage.png "Print da tela 'Clientes'")
+![No topo e centralizada se encontra a logo do projeto, em tamanho reduzido e cor branca, sobre um fundo azul-marinho (igual ao da tela de login). À direita, um botão com 3 listras indicando um menu expansivo. Quando clicado, expande o menu. No centro da imagem se encontra a "Tabela de Clientes", com dados sobre todas os clientes registrados no sistema. Ao lado do título, totalmente a direita, o botão de cor verde e texto "Adicionar cliente" na cor branca, está posicionado. Novamente, explicações se encontram abaixo da imagem. Abaixo do título se encontra uma caixa de pesquisa, que ao ser clicada, possibilita a busca por clientes específicos e seus dados são exibidos. Os dados representados na tabela são: nome do cliente, telefone celular e e-mail cadastrado. Ainda dentro da tabela, mais à direita, para cada cliente, existem 3 botões cujas funcionalidades serão explicadas logo abaixo da imagem. São eles: Finalizar conta (em azul), Editar (em amarelo) e Excluir (em vermelho).](./src/assets/prints/clientesPage.png "Tela dos clientes")
 
 ***legenda***: Página de gerenciamento e visualização de clientes
 
@@ -169,7 +169,7 @@ Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 A página de produtos é responsável pela adição, edição, exclusão e leitura dos produtos registrados no sistema e que alimentam o [cardápio da cantina](https://www.cantinasenai.com.br).
 
-![](./src/assets/prints/produtosPageedit.png "Página de produtos")
+![As cores de fundo,o design e a estrutura das outras páginas são preservados. As alterações ocorrem nos dados e botões dispostos na tabela. São representados os dados: nome do produto, categoria (salgados, lanches, doces, etc.), descrição e preço. Acima o botão "Adiciona produto" se encontra, em verde. Para cada produto temos dois botões: Editar (em amarelo) e Excluir (em vermelho).](./src/assets/prints/produtosPageedit.png "Página de produtos")
 
 ***legenda***: Tela de gerenciamento e visualização de produtos
 
