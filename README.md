@@ -119,6 +119,7 @@ Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 ![](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
 
+![](./src/assets/prints/modalExcluiComprasPagas.png)
 
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
@@ -149,7 +150,11 @@ Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 ![Adicionar cliente](./src/assets/prints/modalAddClient.png)
 
-![](./src/assets/prints/) ATUALIZAR PASTA DE PRINTS
+![](./src/assets/prints/modalEditClient.png)
+
+![](./src/assets/prints/modalExcluiClient.png)
+
+![](./src/assets/prints/modalFinalizaConta.png)
 
 #### Página de Produtos
 
@@ -166,6 +171,15 @@ A página de produtos exibe os detalhes de todos os produtos registrados no sist
 - ***Editar*** - carrega uma página contendo os dados do produto a ser alterado e permite qualquer modificação.
 
 - ***Excluir*** - exclui ***permanentemente*** aquele produto do sistema, após confirmação.
+
+Aqui vão alguns prints das telas de confirmação:
+
+![](./src/assets/prints/modalAddProduto.png)
+
+![](./src/assets/prints/modalEditProduto.png)
+
+![](./src/assets/prints/modalExcluiProduto.png)
+
 
 ## Conclusão
 
