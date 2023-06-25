@@ -124,11 +124,12 @@ A seguir, uma breve descrição dos botões e suas funcionalidades:
 
 Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
-![](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir vendas pagas", consiste em um retângulo sobressaltado com o alerta: "Tem certeza que deseja excluir todas as vendas pagas? Essa ação é irreversível". Sua cor é branca e tem dois botões: cancelar (na cor cinza) e sim (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
 
-![](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
+![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Detalhes". Consiste em um retângulo sobressaltado com uma tabela exibindo dados como: nome, preço e quantidade dos produtos. Abaixo, o botão "Fechar" é exibido na cor cinza e quando clicado, retorna o usuário para a página de vendas.](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
 
-![](./src/assets/prints/modalExcluiComprasPagas.png "Modal de confirmação de exclusão de compra")
+
+![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir esta venda?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiComprasPagas.png "Modal de confirmação de exclusão de compra")
 
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
@@ -157,13 +158,13 @@ A página de clientes exibe os detalhes de todos os clientes registrados no sist
 
 Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
-![Adicionar cliente](./src/assets/prints/modalAddClient.png "Modal adiciona cliente")
+![Uma janela aberta para inserção dos dados ao clicar no botão "Adicionar cliente". Consiste em um formulário retângular com o título: Novo cliente. Centralizado e destacado sobre um fundo automaticamente ofuscado, sua cor é branca e tem os seguintes campos: nome do cliente e-mail do cliente e telefone do cliente. Abaixo dos campos um botão verde de título "Adicionar" confirma a operação.](./src/assets/prints/modalAddClient.png "Modal adiciona cliente")
 
-![](./src/assets/prints/modalEditClient.png "Modal edita cliente")
+![Uma janela nos mesmos padrões visuais da interior. Se difere apenas: no título "Edita cliente", no fato de agora os campos vierem preenchidos com os dados do cliente selecionado e o botão de confirmação tem título "Salvar".](./src/assets/prints/modalEditClient.png "Modal edita cliente")
 
-![](./src/assets/prints/modalExcluiClient.png "Modal de confirmação exclui cliente")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir cliente?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiClient.png "Modal de confirmação exclui cliente")
 
-![](./src/assets/prints/modalFinalizaConta.png "Modal finaliza conta")
+![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Finalizar conta", consiste em um retângulo sobressaltado com uma tabela exibindo dados como: data e hora, total e um botão levando aos detalhes de cada compra registrada para aquele cliente. Abaixo dos dados, uma linha com o nome "Total:" exibe o total de todas as compras somadas. Por fim, no "pé" da janela o botão "Finalizar conta" é exibido na cor verde e quando clicado, retorna o usuário para a página de clientes, alterando o status de todas as compras daquele cliente para "Pago".](./src/assets/prints/modalFinalizaConta.png "Modal finaliza conta")
 
 #### Página de Produtos
 
@@ -183,19 +184,19 @@ A página de produtos exibe os detalhes de todos os produtos registrados no sist
 
 Aqui vão alguns prints das telas de confirmação:
 
-![](./src/assets/prints/modalAddProduto.png "Modal adiciona produto")
+![Uma janela aberta para inserção dos dados ao clicar no botão "Adicionar produto". Consiste em um formulário retângular com o título: Novo produto. Centralizado e destacado sobre um fundo automaticamente ofuscado, sua cor é branca e tem os seguintes campos: nome do produto, preço, categoria e descrição. Abaixo dos campos um botão verde de título "Adicionar" confirma a operação.](./src/assets/prints/modalAddProduto.png "Modal adiciona produto")
 
-![](./src/assets/prints/modalEditProduto.png "Modal edita produto")
+![Uma janela nos mesmos padrões visuais da interior. Se difere apenas: no título "Edita produto", no fato de agora os campos vierem preenchidos com os dados do produto selecionado e o botão de confirmação tem título "Salvar".](./src/assets/prints/modalEditProduto.png "Modal edita produto")
 
-![](./src/assets/prints/modalExcluiProduto.png "Modal de confirmação exclui produto")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir este item?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiProduto.png "Modal de confirmação exclui produto")
 
 
 ## Conclusão
 
 
-O projeto Cantina SENAI foi desenvolvido com muita dedicação e comprometimento, durante um período de aproximadamente 3 meses. Focados em resolver problemas, solucionamos a questão das anotações acrescentando uma interface visualmente agradável. O site possui funcionalidades como registro de data e hora de compras, sistema de busca por clientes específicos, envio de e-mail para maior transparência das operações, etc.
+O projeto Cantina SENAI foi desenvolvido com muita dedicação e comprometimento, durante um período de aproximadamente 3 meses. Focados em resolver problemas, solucionamos a questão das anotações acrescentando uma interface visualmente agradável, limpa e fluida. O site possui funcionalidades como registro de data e hora de compras, sistema de busca por clientes específicos, envios de e-mail automáticos e etc.
 
 Na parte da segurança, o sistema de login JWT garante que o usuário só acesse a aplicação se devidamente autorizado. Caso contrário, a tentativa de navegação entre outras páginas da aplicação será *barrada* e o usuário redirecionado para a tela de login. O sistema também possui proteção contra *SQL injection* e criptografias de senhas inclusas, para aumentar a segurança contra possíveis invasões.
 
-Todas essas medidas foram implementadas com o objetivo de ***facilitar*** o gerenciamento dos produtos e contas pendentes, promovendo **segurança** e **transparência** na ulização de todas as partes da aplicação.
+Todas essas medidas foram implementadas com o objetivo de ***facilitar*** o gerenciamento dos produtos e contas pendentes, promovendo **segurança** e **transparência** na relação cliente-cantina e na ulização de todas as partes da aplicação.
 
