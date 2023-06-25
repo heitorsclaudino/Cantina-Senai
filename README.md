@@ -124,12 +124,12 @@ A seguir, uma breve descrição dos botões e suas funcionalidades:
 
 Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
-![Uma janela de confirmação aberta ao clicar no botão "Excluir vendas pagas", consiste em um retângulo sobressaltado com o alerta: "Tem certeza que deseja excluir todas as vendas pagas? Essa ação é irreversível". Sua cor é branca e tem dois botões: cancelar (na cor cinza) e sim (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de venda")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir vendas pagas", consiste em um retângulo sobressaltado com o alerta: "Tem certeza que deseja excluir todas as vendas pagas? Essa ação é irreversível". Sua cor é branca e tem dois botões: cancelar (na cor cinza) e sim (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiComprasPagas.png.png "Modal de confirmação de exclusão de venda")
 
 ![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Detalhes". Consiste em um retângulo sobressaltado com uma tabela exibindo dados como: nome, preço e quantidade dos produtos. Abaixo, o botão "Fechar" é exibido na cor cinza e quando clicado, retorna o usuário para a página de vendas.](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
 
 
-![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir esta venda?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiComprasPagas.png "Modal de confirmação de exclusão de compra")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir esta venda?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiCompra.png.png "Modal de confirmação de exclusão de compra")
 
 ***Nota***: nosso sistema não trabalha com transações monetárias, todas suas funcionalidades são para fins de controle e registro. Pagamentos são feitos à parte, diretamente com a cantina.
 
