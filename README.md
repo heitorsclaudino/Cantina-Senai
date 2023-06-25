@@ -36,7 +36,7 @@
 
 - ***Tailwind.css*** - uma biblioteca utilizada para facilitar e dinamizar a estilização das páginas
 
-- ***Vite*** - um framework utilizado para simplificar a estrutura do projeto (me corrijam henrique e guilherme, pra ver se é isso mesmo)
+- ***Vite*** - um framework utilizado para simplificar a estrutura do projeto
 
 ### Estrutura do projeto 
 
@@ -124,9 +124,9 @@ A seguir, uma breve descrição dos botões e suas funcionalidades:
 
 Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
-![Uma janela de confirmação aberta ao clicar no botão "Excluir vendas pagas", consiste em um retângulo sobressaltado com o alerta: "Tem certeza que deseja excluir todas as vendas pagas? Essa ação é irreversível". Sua cor é branca e tem dois botões: cancelar (na cor cinza) e sim (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiComprasPagas.png "Modal de confirmação de exclusão de venda")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir vendas pagas", consiste em um retângulo sobressaltado com o alerta: "Tem certeza que deseja excluir todas as vendas pagas? Essa ação é irreversível". Sua cor é branca e tem dois botões: cancelar (na cor cinza) e sim (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiComprasPagas.png "Modal de confirmação de exclusão de todas as compras pagas do sistema")
 
-![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Detalhes". Consiste em um retângulo sobressaltado com uma tabela exibindo dados como: nome, preço e quantidade dos produtos. Abaixo, o botão "Fechar" é exibido na cor cinza e quando clicado, retorna o usuário para a página de vendas.](./src/assets/prints/detailsCompraEdit.png "Modal detalhes da compra")
+![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Detalhes". Consiste em um retângulo sobressaltado com uma tabela exibindo dados como: nome, preço e quantidade dos produtos. Abaixo, o botão "Fechar" é exibido na cor cinza e quando clicado, retorna o usuário para a página de vendas.](./src/assets/prints/detailsCompraEdit.png "Modal exibindo os detalhes da compra")
 
 
 ![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir esta venda?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiCompra.png "Modal de confirmação de exclusão de compra")
@@ -162,9 +162,9 @@ Fotos das telas seguintes ou janelas de confirmação dessas operações:
 
 ![Uma janela nos mesmos padrões visuais da interior. Se difere apenas: no título "Edita cliente", no fato de agora os campos vierem preenchidos com os dados do cliente selecionado e o botão de confirmação tem título "Salvar".](./src/assets/prints/modalEditClient.png "Modal edita cliente")
 
-![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir cliente?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiClient.png "Modal de confirmação exclui cliente")
+![Uma janela de confirmação aberta ao clicar no botão "Excluir". Consiste em um retângulo sobressaltado com o alerta: "Excluir cliente?". Sua cor é branca e tem dois botões: "Cancelar" (na cor cinza) e "Sim" (na cor azul). Após confirmação, a janela é fechada e a ação completada.](./src/assets/prints/modalExcluiClient.png "Modal de confirmação exclusão de cliente")
 
-![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Finalizar conta", consiste em um retângulo sobressaltado com uma tabela exibindo dados como: data e hora, total e um botão levando aos detalhes de cada compra registrada para aquele cliente. Abaixo dos dados, uma linha com o nome "Total:" exibe o total de todas as compras somadas. Por fim, no "pé" da janela o botão "Finalizar conta" é exibido na cor verde e quando clicado, retorna o usuário para a página de clientes, alterando o status de todas as compras daquele cliente para "Pago".](./src/assets/prints/modalFinalizaConta.png "Modal finaliza conta")
+![Uma janela com informações sobre a compra. Acionada ao clicar no botão "Finalizar conta", consiste em um retângulo sobressaltado com uma tabela exibindo dados como: data e hora, total e um botão levando aos detalhes de cada compra registrada para aquele cliente. Abaixo dos dados, uma linha com o nome "Total:" exibe o total de todas as compras somadas. Por fim, no "pé" da janela o botão "Finalizar conta" é exibido na cor verde e quando clicado, retorna o usuário para a página de clientes, alterando o status de todas as compras daquele cliente para "Pago".](./src/assets/prints/modalFinalizaConta.png "Modal finalizar conta")
 
 #### Página de Produtos
 
